@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DegreeConvertor.jnlp">
+  <information>
+    <title>DegreeConvertor</title>
+    <vendor>Azhar Zaman</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DegreeConvertor.jar" size="3794" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DegreeConvertor" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="degreeconvertor.DegreeConvertor"  name="DegreeConvertor" />
+  <update check="always"/>
+</jnlp>
